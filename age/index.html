@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/image-removebg-preview.png">
+
+  <link rel="stylesheet2" href="Responsive.css">
+
+  <title>Age Calculator</title>
+
+
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <form id="myForm" onsubmit="return Check()">
+      <div class="Date">
+        <label for="Day">DAY</label>
+        <input type="text" name="inputfill" id="Day" placeholder="  DD" required maxlength="2">
+      </div>
+      <div class="Date">
+        <label for="Month">MONTH</label>
+        <input type="text" id="Month" name="Date" placeholder="  MM" maxlength="2">
+      </div>
+      <div class="Date">
+        <label for="Year">YEAR</label>
+        <input type="text" id="YEAR" placeholder="  YYYY" maxlength="4">
+      </div>
+    </form>
+    <div class="line-cir">
+      <button class="circle" value="submit" onclick="calculateAge()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="36" viewBox="0 0 46 44">
+          <g fill="none" stroke="#FFF" stroke-width="2">
+            <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+          </g>
+        </svg>
+      </button>
+      <div class="line">
+        <div></div>
+      </div>
+      <br>
+      <aside class="input">
+
+        <b class="Year" id="YEAR1">- - </b>
+        <b class="Year">years</b>
+
+        <br>
+
+        <b class="Month" id="MONTH">- - </b>
+        <b class="Month">months</b>
+
+        <br>
+
+        <b class="Day" id="DAY">- -</b>
+        <b class="Day">days</b>
+
+      </aside>
+
+
+
+    </div>
+
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/dashboard" target="_blank">Niceppn</a>.
+    </div>
+
+    <script src="script.js"></script>
