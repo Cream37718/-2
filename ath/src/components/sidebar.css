@@ -1,0 +1,42 @@
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.sidebar-closed {
+  transform: translateX(-100%);
+}
+
+.sidebar-open {
+  transform: translateX(0);
+}
+
+/* Main content */
+.main-content {
+  transition: margin-left 0.3s ease;
+  margin-left: 0;
+  padding: 20px;
+}
+
+.main-content.shifted {
+  margin-left: 250px; /* ให้ตรงกับความกว้าง Sidebar */
+}
+
+/* Optional: overlay */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
