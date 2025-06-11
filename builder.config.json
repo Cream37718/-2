@@ -1,0 +1,6 @@
+{
+  "command": "npx \"@builder.io/dev-tools@latest\" code --url \"https://builder.io/fiddle/5b4fc10abbc74899857bc2900aeacc24?fromFigma=true\" --spaceId cedfce6923344bb0b7660ba0daa8c750",
+  "serverUrl": "http://localhost:5173/",
+  "authenticateProxy": false,
+  "commitMode": "commits"
+}
