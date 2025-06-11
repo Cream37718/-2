@@ -1,0 +1,13 @@
+.title{
+  color: blueviolet;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  width: 150px;
+}

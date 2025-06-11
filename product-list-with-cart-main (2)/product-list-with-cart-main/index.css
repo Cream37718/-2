@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Red Hat Text';
+}
+html,body{
+    padding: 0;
+    margin: 25px 30px;
+    background-color: hsl(13, 31%, 94%);
+}
+.Container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3em;
+    width: fit-content;
+    h1{
+        color: hsl(14, 65%, 9%);
+        font-weight: 700;
+    }
+}
+.Cart{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 4em;
+    left: 68em;
+    flex-direction: column;
+    align-items: center;
+    width: 380px;
+    height: 300px;
+    background-color: hsl(20, 50%, 98%);
+    border-radius: 8px;
+    h2{
+        color: hsl(14, 86%, 42%);
+        margin: 0;
+        align-self: flex-start;
+        padding: 0 25px;
+    }
+    color: hsl(12, 20%, 44%);
+}
+.Thumbnail{
+    width: 300px;
+    height: 280px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.Menu{
+    line-height:0;
+    font-size: 16px;
+    h5{
+        color: hsl(12, 20%, 44%) ;
+    }
+    .Price{
+        color: hsl(14, 86%, 42%);
+    }
+}
+.addToCart{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    background-color: hsl(20, 50%, 98%) ;
+    width: 170px;
+    height: 50px;
+    padding: 0 38px;
+    margin: -15px 0;
+    position: relative;
+    z-index: 10;
+    border: 1px solid hsl(7, 20%, 60%);
+    border-radius: 25px;
+    cursor: pointer;
+}
+.NameThumbnail {
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "680883f2119703f2e320b2d7"
+  },
+  "ProductID": "1001",
+  "ProductName": "ข้าวผัด",
+  "ProductPrice": 55
+},
+{
+  "_id": {
+    "$oid": "6808853a119703f2e320b2d8"
+  },
+  "ProductID": "1002",
+  "ProductName": "ข้าวผัดกระเพรา",
+  "ProductPrice": 50
+},
+{
+  "_id": {
+    "$oid": "6808857a119703f2e320b2d9"
+  },
+  "ProductID": "1003",
+  "ProductName": "ก๊วยเตี๋ยว",
+  "ProductPrice": 45
+},
+{
+  "_id": {
+    "$oid": "680885a8119703f2e320b2da"
+  },
+  "ProductID": "1004",
+  "ProductName": "ก๊วยจั๊บน้ำใส",
+  "ProductPrice": 65
+},
+{
+  "_id": {
+    "$oid": "680885dd119703f2e320b2db"
+  },
+  "ProductID": "1005",
+  "ProductName": "น้ำโค้ก",
+  "ProductPrice": 30
+},
+{
+  "_id": {
+    "$oid": "68088605119703f2e320b2dc"
+  },
+  "ProductName": "น้ำเปล่า",
+  "ProductPrice": 12,
+  "ProductID": "1006"
+},
+{
+  "_id": {
+    "$oid": "68088672119703f2e320b2dd"
+  },
+  "ProductID": "1007",
+  "ProductSize": "s",
+  "ProductName": "T-shirt",
+  "ProductPrice": 399
+},
+{
+  "_id": {
+    "$oid": "680886bc119703f2e320b2de"
+  },
+  "ProductID": "1008",
+  "ProductSize": "M",
+  "ProductName": "T-shirt",
+  "ProductPrice": 399
+}]

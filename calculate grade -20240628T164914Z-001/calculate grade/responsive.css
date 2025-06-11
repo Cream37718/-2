@@ -1,0 +1,5 @@
+@media only screen and (max-width:320px){
+    .main{
+        transform: scale(0.9);
+    }
+}

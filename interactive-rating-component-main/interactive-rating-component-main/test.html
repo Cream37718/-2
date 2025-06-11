@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+      margin: 0;
+    }
+    .box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .hidden {
+      display: none;
+    }
+    .imgresponsive {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+    .thank-you {
+      font-size: 24px;
+      color: #333;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+    }
+  </style>
+  <title>Interactive Event Example</title>
+</head>
+<body>
+
+  <div class="box" id="content">
+    <h1>How did we do?</h1>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <button onclick="showThankYou()">SUMMIT</button>
+  </div>
+
+  <script>
+    function showThankYou() {
+      // ซ่อนเนื้อหาปัจจุบัน
+      const content = document.getElementById('content');
+      content.classList.add('hidden');
+
+      // สร้างองค์ประกอบใหม่
+      const thankYouDiv = document.createElement('div');
+      thankYouDiv.classList.add('thank-you');
+
+      // ข้อความขอบคุณ
+      const thankYouText = document.createElement('h1');
+      thankYouText.textContent = 'Thank you!';
+
+      // เพิ่มรูปภาพ (สามารถเปลี่ยน path รูปภาพได้)
+      const image = document.createElement('img');
+      image.src = './images/thankyou.png'; // เปลี่ยน path ของรูปภาพตามต้องการ
+      image.alt = 'Thank You Image';
+      image.classList.add('imgresponsive');
+
+      // นำเนื้อหาใหม่เข้ามาแสดง
+      thankYouDiv.appendChild(thankYouText);
+      thankYouDiv.appendChild(image);
+      document.body.appendChild(thankYouDiv);
+    }
+  </script>
+
+</body>
+</html>

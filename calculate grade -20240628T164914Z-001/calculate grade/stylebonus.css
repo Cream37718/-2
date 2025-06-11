@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.main{
+    width: 1100px;
+    height: 700px;
+    background-color: burlywood;
+    border-radius: 30px;
+    justify-content: center;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+    margin: auto;
+    
+}
+.welcomeTxt{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 2rem;
+}

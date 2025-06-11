@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\This\\Desktop\\code\\BasicReact\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{319AC144-CB85-4511-AC0F-E6A0778826B2}|BasicReact\\BasicReact.csproj|c:\\users\\this\\desktop\\code\\basicreact\\basicreact\\frontend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{319AC144-CB85-4511-AC0F-E6A0778826B2}|BasicReact\\BasicReact.csproj|solutionrelative:basicreact\\frontend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{319AC144-CB85-4511-AC0F-E6A0778826B2}|BasicReact\\BasicReact.csproj|c:\\users\\this\\desktop\\code\\basicreact\\basicreact\\frontend\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{319AC144-CB85-4511-AC0F-E6A0778826B2}|BasicReact\\BasicReact.csproj|solutionrelative:basicreact\\frontend\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{319AC144-CB85-4511-AC0F-E6A0778826B2}|BasicReact\\BasicReact.csproj|c:\\users\\this\\desktop\\code\\basicreact\\basicreact\\frontend\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{319AC144-CB85-4511-AC0F-E6A0778826B2}|BasicReact\\BasicReact.csproj|solutionrelative:basicreact\\frontend\\public\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\Users\\This\\Desktop\\code\\BasicReact\\BasicReact\\frontend\\src\\App.js",
+              "RelativeDocumentMoniker": "BasicReact\\frontend\\src\\App.js",
+              "ToolTip": "C:\\Users\\This\\Desktop\\code\\BasicReact\\BasicReact\\frontend\\src\\App.js",
+              "RelativeToolTip": "BasicReact\\frontend\\src\\App.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-14T14:59:34.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\This\\Desktop\\code\\BasicReact\\BasicReact\\frontend\\src\\index.js",
+              "RelativeDocumentMoniker": "BasicReact\\frontend\\src\\index.js",
+              "ToolTip": "C:\\Users\\This\\Desktop\\code\\BasicReact\\BasicReact\\frontend\\src\\index.js",
+              "RelativeToolTip": "BasicReact\\frontend\\src\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-14T14:57:26.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\This\\Desktop\\code\\BasicReact\\BasicReact\\frontend\\public\\index.html",
+              "RelativeDocumentMoniker": "BasicReact\\frontend\\public\\index.html",
+              "ToolTip": "C:\\Users\\This\\Desktop\\code\\BasicReact\\BasicReact\\frontend\\public\\index.html",
+              "RelativeToolTip": "BasicReact\\frontend\\public\\index.html",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-14T14:48:19.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

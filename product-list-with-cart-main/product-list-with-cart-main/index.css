@@ -1,0 +1,99 @@
+*{
+    font-family: 'Red Hat Text';
+}
+.Desert{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto auto;
+    row-gap: 55px;
+    justify-items: start;
+    padding: 10px 0px 0 25px;
+    margin-right: 450px;
+}
+.desert{
+    text-align:start;
+    padding: 5px;
+}
+img{
+    width: 230px;
+    height: 230px;
+    border-radius: 10px;
+}
+h1{
+    padding: 15px 0 0 25px;
+    font-weight: 700;
+}
+body{
+    background-color:hsl(20, 50%, 98%);
+    position: relative;
+}
+.name{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+label{
+    color: hsl(7, 20%, 60%);
+    font-size: 16px;
+    font-weight: 400;
+}
+.pice{
+    margin-top: -16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(14, 86%, 42%);
+}
+.total{
+    width: 340px;
+    height: 275px;
+    background-color: #ffff;
+    display: flex;
+    position: fixed;
+    top: 8%;
+    left: 66%;
+    border-radius: 10px;
+}   
+.box{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+p{
+    font-size: 24px;
+    font-weight: 700;
+    color:hsl(14, 86%, 42%) ;
+    padding:5px 0 0 15px;
+}
+.Total{
+    padding: 85px 75px;
+    color: hsl(7, 20%, 60%);
+    font-size: 11px;
+}
+.Add{
+    width: 180px;
+    height: 43px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 19%;
+    left: 8.5%;
+    transform: translate(-19%,-16%);
+    background-color: #ffff;
+    border-radius: 35px;
+    border-color: hsl(7, 20%, 60%);
+}
+.shop{
+    padding-top: 5px;
+}
+.add{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+
+
+

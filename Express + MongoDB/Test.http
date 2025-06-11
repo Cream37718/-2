@@ -1,0 +1,30 @@
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/api/customers
+
+###
+GET http://localhost:3000/api/customers/680a6f037a365b7f3cfbaecb
+###
+
+POST  http://localhost:3000/api/customers HTTP/1.1
+Content-Type: application/json
+
+{
+    "CustomerID":1005,
+    "FullName":"สมบัติ วัยเจริญ",
+    "Address":"หมู่บ้านสะพานดำ"
+}
+
+###
+PUT http://localhost:3000/api/customers/680a6f037a365b7f3cfbaecb HTTP/1.1
+Content-Type: application/json
+
+{
+    "CustomerID":1002,
+    "FullName":"เรืองยศ วัยเจริญ",
+    "Address":"ราชบุรี"
+
+}
+###
+DELETE http://localhost:3000/api/customers/680a6f037a365b7f3cfbaecb HTTP/1.1

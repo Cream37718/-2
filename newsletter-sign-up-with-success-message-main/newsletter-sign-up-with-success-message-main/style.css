@@ -1,0 +1,79 @@
+
+body{
+    background-color:  hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:50%;
+    right:50%;
+    transform: translate(50%,-50%);
+    z-index: -1;
+}
+
+.all{
+    background-color:hsl(0, 0%, 100%);
+    position: relative;
+    width:690px;
+    height:430px;
+    padding-left: 40px;
+    padding-top: 50px;
+    border-radius: 30px;
+    font-family:Roboto; 
+    z-index: -1;
+
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+#list{
+    position: absolute;
+    top: -11px;
+    left: 50px;
+    font-family:Roboto;
+    line-height: 25px;
+}
+.email{
+    margin-top: 25px;
+    font-weight: 400;
+    color:hsl(234, 29%, 20%);
+}
+.one{
+    color:hsl(234, 29%, 20%);
+}
+#list{
+    color:hsl(234, 29%, 20%);
+}
+input{
+    margin-top: 10px;
+    width: 350px;
+    height: 40px;
+    border-radius: 7px;
+}
+button{
+    margin-top: 15px;
+    width: 360px;
+    height: 40px;
+    border-radius: 7px;
+    background-color:hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%);
+}
+button:hover{
+    background-color:hsl(4, 100%, 67%);
+    border-style: none;
+}
+#pic{
+    position: absolute;
+    height: 430px;
+    width: 350px;
+    left: 390px;
+    bottom: 24px;
+}
+#sure{
+    position: relative;
+    left: 9px;
+    border-radius: 50%;
+    background-color: hsl(4, 100%, 67%) ;
+}

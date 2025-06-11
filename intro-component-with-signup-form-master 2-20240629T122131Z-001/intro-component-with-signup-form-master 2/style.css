@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(0, 100%, 74%) ;
+    background-image: url("images/bg-intro-desktop.png");
+}
+h1{
+    color: #ffff;
+    margin-top: 100px;
+    padding-left: 250px;
+    font-size: 50px;
+}
+p{
+    color: #ffff;
+    margin-top: -25px;
+    padding-left: 250px;
+    font-size: 18px;
+}
+div{
+    background-color: #ffff;
+    width: 500px;
+    height: 440px;
+    margin-left: 800px;
+    margin-top: -280px;
+    border-radius: 10px;
+}
+.A{
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 380px;
+    height: 35px;
+}
+.B{
+    margin-top: 35px;
+    margin-left: 50px;
+    width: 380px;
+    height: 35px;
+}
+.C{
+    margin-top: 35px;
+    margin-left: 50px;
+    width: 380px;
+    height: 35px;
+}
+.D{
+    margin-top: 35px;
+    margin-left: 50px;
+    width: 380px;
+    height: 35px;
+}
+.box1{
+    margin-left: 800px;
+    margin-top: 100px;
+    width: 500px;
+    height: 45px;
+    border-radius: 7px;
+    text-align: center;
+    background-color:hsl(248, 32%, 49%);
+    color: #ffff;
+    border-style: none;
+}
+.box2{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 380px;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: hsl(154, 59%, 51%);
+    color: #ffff;
+    border-style: none;
+}

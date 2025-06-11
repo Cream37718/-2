@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <ul class="list-group">
+        <li class="list-group-item">Bootstrap5</li>
+        <li class="list-group-item">Vue.js</li>
+        <li class="list-group-item">Node.js</li>
+    </ul>
+    <br><br>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">HTML</li>
+        <li class="list-group-item">CSS</li>
+        <li class="list-group-utem">Javascript</li>
+    </ul>
+    <br><br>
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">รายการสินค้า</a>
+        <a href="#" class="list-group-item list-group-item-action">วิธีการสั่งซื้อสินค้า</a>
+    </div>
+    <br><br>
+    <script>
+        function list_click(event){
+            const btn = event.target.innerText
+            alert(btn)
+        }
+    </script>
+    <div class="list-group">
+        <button class="list-group-item list-group-item-action active" onclick="list_click(event)">รายการสินค้า</button>
+        <button class="list-group-item liat-group-item-action disabled" onclick="list_click(event)">วิธีการสั่งซื้อ</button>
+        <button class="list-group-item list-group-item-action active" onclick="list_click(event)">เเจ้งการชำระ</button>
+    </div>
+</body>
+</html>

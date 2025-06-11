@@ -1,0 +1,11 @@
+div{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  margin-top: 15px;
+}
+.from-control{
+  width: 400px;
+}

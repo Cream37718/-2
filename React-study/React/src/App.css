@@ -1,0 +1,28 @@
+ิhtml, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1{
+  margin-bottom: 500px;
+}
+@media (max-width:768px){
+  nav{
+    height: 360px;
+  }
+  h1{
+    margin-bottom: 5px;
+  }
+  
+}
